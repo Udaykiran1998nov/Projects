@@ -1,0 +1,19 @@
+Udaykiran1998nov    (gitub account) onlie repo and git is a local repo	
+
+
+repo pass: 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
+
+ls -la
+git init  ( to add git to the folder)
+git status 
+git branch
+git add (file name)
+git commit -m "message"
+git push 
+git config --gobal user.name 
+git config --gobal user.email
+git pull origin master
+git rebase master
+git branch b1 master (new branch to copy to b1)
+git remote add origin (http link)
+

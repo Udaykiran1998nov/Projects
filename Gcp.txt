@@ -1,0 +1,11 @@
+us-central1-docker.pkg.dev/top-footing-425214-n4/hello-microservice/sample:1
+
+
+docker build -t sample:1 .
+
+docker tag sample:1 us-central1-docker.pkg.dev/top-footing-425214-n4/hello-microservice/sample:1
+
+docker push us-central1-docker.pkg.dev/top-footing-425214-n4/hello-microservice/sample:1
+
+
+mysql -uroot -p -h 34.134.228.221 --ssl-ca=server-ca.pem --ssl-cert=client-cert.pem --ssl-key=client-key.pem

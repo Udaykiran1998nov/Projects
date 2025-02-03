@@ -1,0 +1,54 @@
+
+ Windows RDP protocol : port 3389   ,   port 22 for linux
+
+ip a : 192.168.42.128
+
+To create file like txt or html use command like touch , vi , nano 
+
+pwd   show present working directory
+
+clear
+
+w
+
+ls -hs {in size}
+ls -a {hidden files}
+
+
+touch. txt
+
+man   guide to commmands
+
+sudo apt update 
+
+sudo apt instill nginx  
+
+ngnix  -v to check version
+
+cd /var/www/html  (to add to web page)
+
+<h1> text <h1/> to create the bold text
+
+nano index.html
+
+vi 
+
+check disc space and properties : df -h
+                                  lsblk
+
+to attach a volume find the disk name first and format using mkfs command 
+
+fdisk -l  disk name
+
+mkfs.ext4 disk name to format disk, so that we can mount disk
+
+mkdir /uday to make directory
+
+mount / disk name/ uday to mount the disk
+umount/ uday   to unmount the disk
+
+sudo su - to be root user
+
+To change file only to readel cmd is { chmod 400 } it is used in connecting to private instance
+
+df -h  to check disks
