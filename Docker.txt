@@ -1,0 +1,11 @@
+rushan 17/1
+
+lsof -i -P -n | grep LISTEN   { to list ports }
+
+docker ps -a { to list containers }
+
+docker container prune -f { to force remove all containers }
+
+sudo docker run -itd -p { -interactive detached -ports }
+
+sudo docker exec -it {container} bash
